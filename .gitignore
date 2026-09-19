@@ -1,0 +1,77 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE / Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Testing / cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# -------------------------
+# Machine Learning / Deep Learning
+# -------------------------
+
+# Large datasets
+data/raw/
+data/processed/
+
+# Trained models / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.keras
+*.onnx
+
+# Serialized ML models
+*.pkl
+*.pickle
+*.joblib
+
+# Training outputs
+runs/
+outputs/
+checkpoints/
+
+# TensorBoard
+tensorboard/
+events.out.tfevents.*
+
+# Temporary files
+*.tmp
+*.temp
